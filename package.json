@@ -16,7 +16,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-      "start":"node data/server.js"
+      "start":"node server.js"
   },
   "dependencies": {
     "accepts": "^2.0.0",
