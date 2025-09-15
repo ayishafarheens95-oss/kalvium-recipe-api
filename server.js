@@ -9,6 +9,7 @@ const DATA_PATH = path.join(__dirname, 'data', 'recipes.json');
 
 app.use(cors());
 app.use(express.json());
+app.use(express.static("public"));
 
 // Utility functions
 const loadRecipes = () => {
